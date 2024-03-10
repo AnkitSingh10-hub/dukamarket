@@ -28,6 +28,7 @@
                     <div class="row justify-content-between align-items-center">
                         <div class="col-lg-3 col">
                             <div class="header-logo">
+                                
                                 <a href="index.html"><img src="/src/assets/images/logo/logo.png" alt="Site Logo" /></a>
                             </div>
                         </div>
@@ -106,7 +107,8 @@
                             <ul>
                                 <li class="dropdown"><a href="#">Home <i class="fa fa-angle-down"></i></a>
                                     <ul class="sub-menu">
-                                        <li><a href="index.html">Home 1</a></li>
+                                        
+                                        <li><router-link :to="{ name: 'Home' }" >Home 1</router-link></li>
                                         <li><a href="index-2.html">Home 2</a></li>
                                     </ul>
                                 </li>
@@ -244,4 +246,6 @@
 </template>
 
 <script lang="ts" setup>
+import { useRouter } from 'vue-router';
+
 </script>

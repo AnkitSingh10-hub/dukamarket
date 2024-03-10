@@ -44,7 +44,9 @@
                                             <td class="product-price-cart"><span class="amount">$60.00</span></td>
                                             <td class="product-quantity">
                                                 <div class="cart-plus-minus">
+                                                    <div class="dec qtybutton">-</div>
                                                     <input class="cart-plus-minus-box" type="text" name="qtybutton" value="1" />
+                                                    <div class="inc qtybutton">+</div>
                                                 </div>
                                             </td>
                                             <td class="product-subtotal">$70.00</td>

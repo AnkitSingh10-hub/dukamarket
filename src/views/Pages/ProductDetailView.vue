@@ -1,5 +1,5 @@
 <template>
-    <div class="breadcrumb-area">
+     <div class="breadcrumb-area">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-12 text-center">
@@ -25,38 +25,38 @@
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <img class="img-responsive m-auto" src="/src/assets/images/product-image/zoom-image/1.webp" alt="">
-                                    <a class="venobox full-preview" data-gall="myGallery" href="assets/images/product-image/zoom-image/1.webp">
+                                    <a class="venobox full-preview" data-gall="myGallery" href="/src/assets/images/product-image/zoom-image/1.webp">
                                         <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <img class="img-responsive m-auto" src="/src/assets/images/product-image/zoom-image/2.webp" alt="">
-                                    <a class="venobox full-preview" data-gall="myGallery" href="assets/images/product-image/zoom-image/2.webp">
+                                    <a class="venobox full-preview" data-gall="myGallery" href="/src/assets/images/product-image/zoom-image/2.webp">
                                         <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <img class="img-responsive m-auto" src="/src/assets/images/product-image/zoom-image/3.webp" alt="">
-                                    <a class="venobox full-preview" data-gall="myGallery" href="assets/images/product-image/zoom-image/3.webp">
+                                    <a class="venobox full-preview" data-gall="myGallery" href="/src/assets/images/product-image/zoom-image/3.webp">
                                         <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <img class="img-responsive m-auto" src="/src/assets/images/product-image/zoom-image/4.webp" alt="">
-                                    <a class="venobox full-preview" data-gall="myGallery" href="assets/images/product-image/zoom-image/4.webp">
+                                    <a class="venobox full-preview" data-gall="myGallery" href="/src/assets/images/product-image/zoom-image/4.webp">
                                         <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                     </a>
                                 </div>
                                 <div class="swiper-slide">
                                     <img class="img-responsive m-auto" src="/src/assets/images/product-image/zoom-image/5.webp" alt="">
-                                    <a class="venobox full-preview" data-gall="myGallery" href="assets/images/product-image/zoom-image/5.webp">
+                                    <a class="venobox full-preview" data-gall="myGallery" href="/src/assets/images/product-image/zoom-image/5.webp">
                                         <i class="fa fa-arrows-alt" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-container mt-20px zoom-thumbs slider-nav-style-1 small-nav swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode swiper-container-thumbs">
-                            <div class="swiper-wrapper" id="swiper-wrapper-b1bf14b2fcd03dfd" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
+                            <div class="swiper-wrapper" id="swiper-wrapper-a6d9aebd9102910d84" aria-live="polite" style="transform: translate3d(0px, 0px, 0px);">
                                 <div class="swiper-slide swiper-slide-visible swiper-slide-active swiper-slide-thumb-active" role="group" aria-label="1 / 5" style="width: 121px; margin-right: 18px;">
                                     <img class="img-responsive m-auto" src="/src/assets/images/product-image/small-image/1.webp" alt="">
                                 </div>
@@ -75,8 +75,8 @@
                             </div>
                             <!-- Add Arrows -->
                             <div class="swiper-buttons">
-                                <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-b1bf14b2fcd03dfd" aria-disabled="false"></div>
-                                <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-b1bf14b2fcd03dfd" aria-disabled="true"></div>
+                                <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-a6d9aebd9102910d84" aria-disabled="false"></div>
+                                <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-a6d9aebd9102910d84" aria-disabled="true"></div>
                             </div>
                         <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
                     </div>
@@ -314,9 +314,6 @@
                 </div>
             </div>
         </div>
-
-        
-        
 </template>
 
 <script setup lang="ts">
