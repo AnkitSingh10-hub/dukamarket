@@ -241,7 +241,7 @@
                             <div class="banner-content nth-child-3">
                                 <h3 class="title">Speaker</h3>
                                 <span class="category">From $69.00</span>
-                                <a href="shop-left-sidebar.html" class="shop-link">Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <router-link :to="{name:'ProductList'}" class="shop-link">Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i></router-link>
                             </div>
                         </div>
                     </div>
@@ -251,7 +251,8 @@
                             <div class="banner-content nth-child-2">
                                 <h3 class="title">Smartphone</h3>
                                 <span class="category">From $95.00</span>
-                                <a href="shop-left-sidebar.html" class="shop-link">Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <router-link :to="{name:'ProductList'}" class="shop-link">Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i></router-link>
+
                             </div>
                         </div>
                     </div>
@@ -552,7 +553,8 @@
                                 <h3 class="title">Smart Watch For <br>
                                         Your Hand</h3>
                                 <span class="category">From $69.00</span>
-                                <a href="shop-left-sidebar.html" class="shop-link">Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <router-link :to="{name:'ProductList'}" class="shop-link">Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i></router-link>
+
                             </div>
                         </div>
                     </div>
@@ -563,7 +565,8 @@
                                 <h3 class="title">Smart Watch For <br>
                                         Your Hand</h3>
                                 <span class="category">From $95.00</span>
-                                <a href="shop-left-sidebar.html" class="shop-link">Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                <router-link :to="{name:'ProductList'}" class="shop-link">Shop Now <i class="fa fa-arrow-right" aria-hidden="true"></i></router-link>
+
                             </div>
                         </div>
                     </div>

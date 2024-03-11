@@ -160,6 +160,18 @@
                                    
                                 </ul>
                             </li>
+
+                            <li class="dropdown "><a href="#">Blog <i class="fa fa-angle-down"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="dropdown position-static"><router-link :to="{ name: 'BlogList' }">Blog
+                                            <i class="fa fa-angle-right"></i></router-link>
+                                        <ul class="sub-menu sub-menu-2">
+                                            <li><router-link :to="{ name: 'BlogList' }">Blog List</router-link></li>
+                                        </ul>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
                             <li><router-link :to="{ name: 'Contact' }">Contact</router-link></li>
                         </ul>
                     </div>
