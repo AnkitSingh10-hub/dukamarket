@@ -18,7 +18,9 @@
     "jwt-decode": "^4.0.0",
     "pinia": "^2.1.7",
     "quasar": "^2.14.7",
+    "v-viewer": "^3.0.13",
     "vee-validate": "^4.12.6",
+    "viewerjs": "^1.11.6",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },
