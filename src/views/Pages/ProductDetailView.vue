@@ -498,10 +498,19 @@
     </div>
 </template>
 
-<script setup lang="ts">
-
+<script lang="ts" setup>
+  import { api as viewerApi } from 'v-viewer'
+  const images = [
+    "https://picsum.photos/200/200",
+    "https://picsum.photos/300/200",
+    "https://picsum.photos/250/200"
+  ]
+  const show = () => {
+    viewerApi({
+      images
+    })
+  }
 </script>
-
 <style scoped>
 
 </style>
